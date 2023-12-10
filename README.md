@@ -1,13 +1,13 @@
-# Daily Attendance Google Apps Script
+# Daily Attendance System
 
-This Google Apps Script automates the process of recording daily attendance in a Google Sheets document. Users can submit their in-time and out-time through a web interface.
+This project automates the process of recording daily attendance in a Google Sheets document. Teachers or users can submit their in-time and out-time through a web interface, and the attendance details are updated in the Google Sheets.
 
-## Getting Started
+## Google Apps Script (JavaScript Code)
 
-To use this script, follow the steps below:
+### Usage
 
 1. **Google Sheets Setup:**
-   - Create a Google Sheets document with the required columns (e.g., ID, In Time, Out Time).
+   - Create a Google Sheets document with the necessary columns (e.g., ID, In Time, Out Time).
 
 2. **Google Apps Script:**
    - Copy and paste the contents of `DailyAttendance.gs` into the Google Apps Script editor.
@@ -21,9 +21,21 @@ To use this script, follow the steps below:
 4. **Get the Web App URL:**
    - After deploying, you'll get a URL for the web app. Use this URL in your MIT App Inventor project.
 
-5. **MIT App Inventor:**
-   - In your MIT App Inventor project, set up the necessary UI components (text boxes, buttons).
-   - Use the `Web` component to make POST requests to the web app URL.
+### MIT App Inventor Project
+
+1. **Import the Project:**
+   - Import the `AttendanceApp.aia` file into your MIT App Inventor.
+
+2. **UI Components:**
+   - Set up the necessary UI components (e.g., text boxes, buttons).
+
+3. **Web Component:**
+   - Use the `Web` component to make POST requests to the web app URL obtained from the Google Apps Script.
+
+### Usage
+
+- Users can input their attendance details using the MIT App Inventor app.
+- The Google Apps Script updates the Google Sheets document with the provided information.
 
 ## Usage
 
