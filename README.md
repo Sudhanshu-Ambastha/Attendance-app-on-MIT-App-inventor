@@ -6,42 +6,48 @@ This project automates the process of recording daily attendance in a Google She
 
 ### Usage
 
-1. **Google Sheets Setup:**
-   - Create a Google Sheets document with the necessary columns (e.g., ID, In Time, Out Time).
+#### Google Sheets Setup:
 
-2. **Google Apps Script:**
-   - Copy and paste the contents of `DailyAttendance.gs` into the Google Apps Script editor.
-   - Save the script.
+1. Create a Google Sheets document with the necessary columns (e.g., ID, In Time, Out Time).
 
-3. **Deploy as Web App:**
-   - In the Google Apps Script editor, go to `Publish > Deploy as web app...`
-   - Choose a version and set access to "Anyone, even anonymous."
-   - Click "Deploy."
+#### Google Apps Script:
 
-4. **Get the Web App URL:**
-   - After deploying, you'll get a URL for the web app. Use this URL in your MIT App Inventor project.
+2. Copy and paste the contents of [DailyAttendance.gs](DailyAttendance.gs) into the Google Apps Script editor.
+3. Save the script.
 
-### MIT App Inventor Project
+#### Deploy as Web App:
 
-1. **Import the Project:**
-   - Import the `AttendanceApp.aia` file into your MIT App Inventor.
+4. In the Google Apps Script editor, go to **Publish > Deploy as web app...**
+5. Choose a version and set access to "Anyone, even anonymous."
+6. Click "Deploy."
 
-2. **UI Components:**
-   - Set up the necessary UI components (e.g., text boxes, buttons).
+#### Get the Web App URL:
 
-3. **Web Component:**
-   - Use the `Web` component to make POST requests to the web app URL obtained from the Google Apps Script.
+7. After deploying, you'll get a URL for the web app. Use this URL in your MIT App Inventor project.
 
-### Usage
+## MIT App Inventor Project
+
+### Import the Project:
+
+1. Import the [AttendanceApp.aia](AttendanceApp.aia) file into your MIT App Inventor.
+
+### UI Components:
+
+2. Set up the necessary UI components (e.g., text boxes, buttons).
+
+### Web Component:
+
+3. Use the Web component to make POST requests to the web app URL obtained from the Google Apps Script.
+
+### Usage:
 
 - Users can input their attendance details using the MIT App Inventor app.
 - The Google Apps Script updates the Google Sheets document with the provided information.
 
-## Usage
+## Modified Version - Teacher Attendance App
 
-- Users can input their attendance details using the MIT App Inventor app.
-- The script updates the Google Sheets document with the provided information.
+Check the modified version in this [repository link](https://github.com/Sudhanshu-Ambastha/Attendance-app-for-Teacher).
 
-## Acknowledgments
+### Acknowledgments
 
-- Inspired by the need for a simple daily attendance system.
+Inspired by the need for a simple daily attendance system.
