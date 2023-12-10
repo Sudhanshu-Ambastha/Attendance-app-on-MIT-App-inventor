@@ -48,6 +48,10 @@ This project automates the process of recording daily attendance in a Google She
 
 Check the modified version in this [repository link](https://github.com/Sudhanshu-Ambastha/Attendance-app-for-Teacher).
 
+## Related Repositories
+
+- [Send-data-to-google-sheets-creating-List-with-MIT-app-inventor](https://github.com/Sudhanshu-Ambastha/Send-data-to-google-sheets-creating-List-with-MIT-app-inventor): Visit this repository for creating a list with MIT App Inventor and sending data to Google Sheets.
+
 ### Acknowledgments
 
 Inspired by the need for a simple daily attendance system.
